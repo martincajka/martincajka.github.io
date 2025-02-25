@@ -1,5 +1,3 @@
-# personal-cv/personal-cv/README.md
-
 # Personal CV Website
 
 This project is a personal CV website that showcases your skills, experience, and contact information. It is designed to be simple, responsive, and easy to customize.
