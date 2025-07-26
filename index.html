@@ -15,29 +15,35 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>Martin Čajka</h1>
-        <div class="contact-info">
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <a href="mailto:martin.cajka125@gmail.com"
-              >martin.cajka125@gmail.com</a
-            >
-          </div>
-          <div class="contact-item">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/martincajka">martincajka</a>
-          </div>
-          <div class="contact-item">
-            <i class="fab fa-linkedin"></i>
-            <a href="https://sk.linkedin.com/in/martin-%C4%8Dajka-aa1a7645"
-              >Martin Čajka</a
-            >
+      <header class="compact-header">
+        <div class="header-main">
+          <h1>Martin Čajka</h1>
+          <div class="contact-info-compact">
+            <span class="contact-item-compact">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:martin.cajka125@gmail.com"
+                >martin.cajka125@gmail.com</a
+              >
+            </span>
+            <span class="contact-item-compact">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/martincajka">martincajka</a>
+            </span>
+            <span class="contact-item-compact">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://sk.linkedin.com/in/martin-%C4%8Dajka-aa1a7645"
+                >Martin Čajka</a
+              >
+            </span>
           </div>
         </div>
-        <a class="download-cv" href="assets/docs/martin-cajka-cv.pdf" download
-          ><i class="fas fa-file-pdf"></i> Download CV</a
+        <a
+          class="download-cv-compact"
+          href="assets/docs/martin-cajka-cv.pdf"
+          download
         >
+          <i class="fas fa-file-pdf"></i> Download CV
+        </a>
       </header>
 
       <div class="section">
@@ -50,213 +56,141 @@
 
       <div class="section">
         <h2>Experience</h2>
-        <div class="item-container">
-          <div class="item-heading">Senior QA Engineer</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Visma Lab s.r.o.</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Kosice</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">03/2024 - Present</span>
+        <div class="experience-list">
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">Senior QA Engineer</div>
+              <div class="exp-company">
+                Visma Lab s.r.o. • Kosice • 03/2024 - Present
+              </div>
+            </div>
+            <div class="exp-description">
+              Mobile app development for board members - meetings, documents,
+              signatures, voting. Manual testing and automation with Appium and
+              Specflow.
+            </div>
+            <div class="exp-skills">
+              <span class="skill-pill">C#</span>
+              <span class="skill-pill">Appium</span>
+              <span class="skill-pill">Specflow</span>
+              <span class="skill-pill">Jira</span>
+              <span class="skill-pill">Git</span>
+            </div>
           </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Project related to the development of mobile application for
-                board members of companies, where they can manage meetings,
-                documents, signatures, voting and more.
-              </li>
-              <li>
-                Manual tesing and automation of test cases for mobile
-                applications using Appium and Specflow.
-              </li>
-            </ul>
+
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">Senior QA Engineer</div>
+              <div class="exp-company">
+                Moxymind s.r.o. • Remote • 02/2023 - 02/2024
+              </div>
+            </div>
+            <div class="exp-description">
+              Mobile apps for Caterpillar - machine health monitoring and spare
+              parts ordering. Test automation with Appium and PyTest, framework
+              refactoring and new implementation.
+            </div>
+            <div class="exp-skills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Appium</span>
+              <span class="skill-pill">PyTest</span>
+              <span class="skill-pill">Azure DevOps</span>
+              <span class="skill-pill">Git</span>
+            </div>
           </div>
-          <div class="item-skills-overview">
-            <div class="pill-item">C#</div>
-            <div class="pill-item">Appium</div>
-            <div class="pill-item">Specflow</div>
-            <div class="pill-item">Jira</div>
-            <div class="pill-item">Git</div>
+
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">High school teacher (career break)</div>
+              <div class="exp-company">
+                Ján Antonín Baťa Polytechnical Vocational Secondary School •
+                Svit • 06/2022 - 01/2023
+              </div>
+            </div>
+            <div class="exp-description">
+              Teaching IT, English, Biology, and Ethics to marginalized
+              communities. Led web development extracurricular activities (HTML,
+              CSS, JS).
+            </div>
           </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">Senior QA Engineer</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Moxymind s.r.o.</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Remote</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">02/2023 - 02/2024</span>
+
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">Technical IT Operations Specialist</div>
+              <div class="exp-company">
+                Siemens Healthineers Slovakia • Remote • 02/2022 - 05/2022
+              </div>
+            </div>
+            <div class="exp-description">
+              Task automation (exports, imports) and POC development for
+              internal documentation app.
+            </div>
+            <div class="exp-skills">
+              <span class="skill-pill">Perl</span>
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Spring Boot</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">Azure DevOps</span>
+              <span class="skill-pill">Git</span>
+            </div>
           </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Projects related to the development of mobile applications for
-                Caterpillar, where useres can monitor and evaluate the health of
-                their machines, order spare parts, and more.
-              </li>
-              <li>
-                Automation of test cases for mobile applications using Appium
-                and PyTest. Refactoring of existing fwk for better
-                maintainability. Implementing new fwk from scratch.
-              </li>
-            </ul>
+
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">QA Engineer</div>
+              <div class="exp-company">
+                Ness KDC • Košice/Remote • 04/2019 - 01/2022
+              </div>
+            </div>
+            <div class="exp-description">
+              Web applications for turbine health monitoring. Led SerenityBDD
+              automation framework implementation, provided test automation
+              support across teams.
+            </div>
+            <div class="exp-skills">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Selenium</span>
+              <span class="skill-pill">SerenityBDD</span>
+              <span class="skill-pill">CucumberBDD</span>
+              <span class="skill-pill">Azure DevOps</span>
+              <span class="skill-pill">Git</span>
+            </div>
           </div>
-          <div class="item-skills-overview">
-            <div class="pill-item">Python</div>
-            <div class="pill-item">Appium</div>
-            <div class="pill-item">PyTest</div>
-            <div class="pill-item">Azure DevOps</div>
-            <div class="pill-item">Git</div>
+
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">QA Engineer</div>
+              <div class="exp-company">
+                Wirecard Slovakia • Košice • 06/2017 - 03/2019
+              </div>
+            </div>
+            <div class="exp-description">
+              mPOS solution for Android/iOS platforms. Test case automation,
+              documentation, risk analysis, and comprehensive testing
+              strategies.
+            </div>
+            <div class="exp-skills">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">Selenium</span>
+              <span class="skill-pill">Appium</span>
+              <span class="skill-pill">SerenityBDD</span>
+              <span class="skill-pill">CucumberBDD</span>
+              <span class="skill-pill">Jira</span>
+              <span class="skill-pill">Git</span>
+            </div>
           </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">High school teacher (career break)</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label"
-              >Ján Antonín Baťa Polytechnical Vocational Secondary School</span
-            >
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Svit</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">06/2022 - 01/2023</span>
-          </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Teaching kids from mostly marginalized communities in the
-                eastern part of Slovakia. Teaching subjects like IT, English,
-                Biology, and Ethics.
-              </li>
-              <li>
-                Organizing and leading extracurricular activities for students -
-                Introduction into web development (HTML, CSS, JS)
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">Technical IT Operations Specialist</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label"
-              >Siemens Healthineers Slovakia</span
-            >
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Remote</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">02/2022 - 05/2022</span>
-          </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Automation of common and repeating tasks (e.g. daily exports,
-                imports, etc.)
-              </li>
-              <li>
-                Development of POC for internal app for uploading and storing
-                internal documentation
-              </li>
-            </ul>
-          </div>
-          <div class="item-skills-overview">
-            <div class="pill-item">Perl</div>
-            <div class="pill-item">Java</div>
-            <div class="pill-item">Spring Boot</div>
-            <div class="pill-item">PostgreSQL</div>
-            <div class="pill-item">Azure DevOps</div>
-            <div class="pill-item">Git</div>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">QA Engineer</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Ness KDC</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Košice/Remote</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">04/2019 - 01/2022</span>
-          </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Projects related to the development of web applications for
-                monitoring and evaluating the health of turbines.
-              </li>
-              <li>
-                Part of team fully specialized on test automation (both FE and
-                BE), and providing test automation support for other teams. Lead
-                role in implementing automation framework based on SerenityBDD
-                for UI testing
-              </li>
-            </ul>
-          </div>
-          <div class="item-skills-overview">
-            <div class="pill-item">Java</div>
-            <div class="pill-item">Selenium</div>
-            <div class="pill-item">SerenityBDD</div>
-            <div class="pill-item">CucumberBDD</div>
-            <div class="pill-item">Azure DevOps</div>
-            <div class="pill-item">Git</div>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">QA Engineer</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Wirecard Slovakia</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Košice</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">06/2017 - 03/2019</span>
-          </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Member of team developing mPOS solution for Android and iOS
-                platform Analysis, creation, and automation of test cases for
-                mobile devices.
-              </li>
-              <li>
-                Bug reporting, creation of test cases, test plans and other
-                documentation using JIRA and Confluence, risk analysis,
-                regression testing, manual testing, black-box testing,
-                functional testing, performance testing
-              </li>
-            </ul>
-          </div>
-          <div class="item-skills-overview">
-            <div class="pill-item">Java</div>
-            <div class="pill-item">Selenium</div>
-            <div class="pill-item">Appium</div>
-            <div class="pill-item">SerenityBDD</div>
-            <div class="pill-item">CucumberBDD</div>
-            <div class="pill-item">Jira</div>
-            <div class="pill-item">Git</div>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">Physiotherapist</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Poprad hospital</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Poprad</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">07/2010 - 06/2011</span>
-          </div>
-          <div class="item-description">
-            <ul>
-              <li>
-                Part of a team that provided physical therapy to patients with
-                mostly orthopedic and neurological diagnoses.
-              </li>
-            </ul>
+
+          <div class="exp-item">
+            <div class="exp-header">
+              <div class="exp-title">Physiotherapist</div>
+              <div class="exp-company">
+                Poprad hospital • Poprad • 07/2010 - 06/2011
+              </div>
+            </div>
+            <div class="exp-description">
+              Physical therapy for patients with orthopedic and neurological
+              diagnoses.
+            </div>
           </div>
         </div>
       </div>
@@ -340,25 +274,23 @@
 
       <div class="section">
         <h2>Certifications</h2>
-        <div class="cert-grid">
-          <div class="cert-item">
-            <div class="cert-name">ISTQB Foundation Level</div>
-            <div class="cert-issuer">
-              International Software Testing Qualifications Board
-            </div>
-            <div class="cert-date">July 2017</div>
+        <div class="cert-list">
+          <div class="cert-item-compact">
+            <span class="cert-name-compact">ISTQB Foundation Level</span>
+            <span class="cert-issuer-compact"
+              >International Software Testing Qualifications Board</span
+            >
+            <span class="cert-date-compact">July 2017</span>
           </div>
-
-          <div class="cert-item">
-            <div class="cert-name">Professional Scrum Developer</div>
-            <div class="cert-issuer">Scrum.org</div>
-            <div class="cert-date">October 2019</div>
+          <div class="cert-item-compact">
+            <span class="cert-name-compact">Professional Scrum Developer</span>
+            <span class="cert-issuer-compact">Scrum.org</span>
+            <span class="cert-date-compact">October 2019</span>
           </div>
-
-          <div class="cert-item">
-            <div class="cert-name">Python Core</div>
-            <div class="cert-issuer">Hyperskill</div>
-            <div class="cert-date">Sep 2023</div>
+          <div class="cert-item-compact">
+            <span class="cert-name-compact">Python Core</span>
+            <span class="cert-issuer-compact">Hyperskill</span>
+            <span class="cert-date-compact">Sep 2023</span>
           </div>
         </div>
       </div>
@@ -380,96 +312,51 @@
 
       <div class="section">
         <h2>Education</h2>
-        <div class="item-container">
-          <div class="item-heading">M.S. in Applied Mechanics</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label"
-              >Tecnical University in Košice, Faculty of Mechanical
-              Engineering</span
-            >
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Košice</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">2011 - 2017</span>
+        <div class="compact-grid">
+          <div class="compact-item">
+            <div class="compact-heading">M.S. in Applied Mechanics</div>
+            <div class="compact-details">
+              Tecnical University in Košice, Faculty of Mechanical Engineering
+            </div>
+            <div class="compact-date">2011 - 2017</div>
           </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">B.S. in Physiotherapy</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label"
-              >Pavol Jozef Šafárik University (UPJŠ), Faculty of Medicine</span
-            >
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Košice</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">2007 - 2010</span>
+          <div class="compact-item">
+            <div class="compact-heading">B.S. in Physiotherapy</div>
+            <div class="compact-details">
+              Pavol Jozef Šafárik University (UPJŠ), Faculty of Medicine
+            </div>
+            <div class="compact-date">2007 - 2010</div>
           </div>
         </div>
       </div>
 
       <div class="section">
-        <h2>Volunteering and Other Experience</h2>
-        <div class="item-container">
-          <div class="item-heading">Municipal Council Member</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Municipality of Gerlachov</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Gerlachov</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">11/2022 - 10/2023</span>
+        <h2>Volunteering & Other Experience</h2>
+        <div class="volunteer-grid">
+          <div class="volunteer-item">
+            <div class="volunteer-title">Municipal Council Member</div>
+            <div class="volunteer-org">Municipality of Gerlachov</div>
+            <div class="volunteer-date">11/2022 - 10/2023</div>
           </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">
-            Volunteer, Support for Ukrainian Refugees
+          <div class="volunteer-item">
+            <div class="volunteer-title">Support for Ukrainian Refugees</div>
+            <div class="volunteer-org">ECAV Batizovce</div>
+            <div class="volunteer-date">02/2022 - 10/2023</div>
           </div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">ECAV Batizovce</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Batizovce</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">02/2022 - 10/2023</span>
+          <div class="volunteer-item">
+            <div class="volunteer-title">Youth Ministry for Local Teens</div>
+            <div class="volunteer-org">ECAV Batizovce</div>
+            <div class="volunteer-date">02/2007 - 10/2023</div>
           </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">
-            Volunteer, Youth Ministry for Local Teens
+          <div class="volunteer-item">
+            <div class="volunteer-title">Support for young homeless men</div>
+            <div class="volunteer-org">Dom na polceste</div>
+            <div class="volunteer-date">09/2021 - 03/2022</div>
           </div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">ECAV Batizovce</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Batizovce</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">02/2007 - 10/2023</span>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">
-            Volunteer, Support for young homeless men
-          </div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Dom na polceste</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Veľký Slavkov</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">09/2021 - 03/2022</span>
-          </div>
-        </div>
-        <div class="item-container">
-          <div class="item-heading">Founder & Owner</div>
-          <div class="item-overview">
-            <i class="fas fa-light fa-building icon"></i
-            ><span class="item-overview-label">Požičovňa OKOLO</span>
-            <i class="fas fa-light fa-location-dot icon"></i
-            ><span class="item-overview-label">Gerlachov</span>
-            <i class="fas fa-light fa-calendar-days icon"></i
-            ><span class="item-overview-label">11/2019 - 03/2022</span>
+          <div class="volunteer-item">
+            <div class="volunteer-title">Founder & Owner</div>
+            <div class="volunteer-org">Požičovňa OKOLO</div>
+            <div class="volunteer-date">11/2019 - 03/2022</div>
           </div>
         </div>
       </div>
